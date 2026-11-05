@@ -1,0 +1,7 @@
+name: VanillaFishing
+version: 1.0.0
+main: Nay\VanillaFishing\Main
+api: 5.0.0
+author: Nay
+load: STARTUP
+description: 100% vanilla-like fishing system for PocketMine-MP

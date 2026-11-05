@@ -1,0 +1,56 @@
+#############################################
+#            VanillaFishing - Nay           #
+#############################################
+
+debug: false
+
+wait-time:
+  min: 100
+  max: 600
+  lure-reduction-per-level: 100
+  no-sky-access-slowdown: true
+  rain-speedup: true
+
+bite-window: 30
+
+open-water-required-for-treasure: true
+
+categories:
+  treasure-base: 5
+  junk-base: 10
+  treasure-per-luck: 2
+  junk-per-luck: 2
+
+loot:
+  fish:
+    - { item: raw_fish, weight: 60 }
+    - { item: raw_salmon, weight: 25 }
+    - { item: pufferfish, weight: 13 }
+    - { item: clownfish, weight: 2 }
+  jungle-fish:
+    - { item: raw_fish, weight: 60 }
+    - { item: raw_salmon, weight: 40 }
+  treasure:
+    - { item: bow, weight: 1, enchant: gear, damage: 25-75 }
+    - { item: fishing_rod, weight: 1, enchant: gear, damage: 25-75 }
+    - { item: enchanted_book, weight: 1, enchant: book }
+    - { item: name_tag, weight: 1 }
+    - { item: nautilus_shell, weight: 1 }
+    - { item: saddle, weight: 1 }
+  junk:
+    - { item: lily_pad, weight: 17 }
+    - { item: bowl, weight: 10 }
+    - { item: fishing_rod, weight: 2, damage: 10-100 }
+    - { item: leather, weight: 10 }
+    - { item: leather_boots, weight: 10, damage: 10-100 }
+    - { item: rotten_flesh, weight: 10 }
+    - { item: stick, weight: 5 }
+    - { item: string, weight: 5 }
+    - { item: glass_bottle, weight: 10 }
+    - { item: bone, weight: 10 }
+    - { item: ink_sac, weight: 1, count: 10 }
+    - { item: tripwire_hook, weight: 10 }
+
+experience:
+  min: 1
+  max: 6
